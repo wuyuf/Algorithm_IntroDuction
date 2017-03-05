@@ -17,7 +17,7 @@ public class ZipInputStreamDemo2 {
 		ZipInputStream zipInput = null;		//定义压缩输入流
 		OutputStream out = null;		//定义输出流，用于输出每一个实体内容
 		InputStream input = null;		//定义输入路，用于输出每一个ZipEntry
-		ZipEntry entry = null;			//每一个压缩式题
+		ZipEntry entry = null;			//每一个压缩实体
 		zipInput = new ZipInputStream(new FileInputStream(file));
 		while((entry = zipInput.getNextEntry())!=null){
 			System.out.println("解压缩" + entry.getName() + "文件");
