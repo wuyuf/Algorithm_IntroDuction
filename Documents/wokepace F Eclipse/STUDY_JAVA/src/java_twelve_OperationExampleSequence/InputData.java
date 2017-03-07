@@ -1,4 +1,4 @@
-package java_twelve_OperationExample;
+package java_twelve_OperationExampleSequence;
 
 import java.io.*;
 import java.util.*;
